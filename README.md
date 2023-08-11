@@ -1,7 +1,8 @@
 
 # [GUIDE] Get the best performance out of Docker on Windows with WSL2
 
-This guide shows how to get the best performance out of Docker on Windows with WSL2
+This guide shows how to get the best performance out of Docker on Windows with WSL2 
+
 If you care about speed, you should avoid "Docker Desktop for Windows" altogether.
 
 ## Prerequisites
