@@ -27,6 +27,7 @@ Follow these steps to start the docker daemon as soon as you log in :
 # Allow members of group "docker" to execute "dockerd" as root without password
 %docker ALL=(ALL) NOPASSWD: /usr/bin/dockerd
 ````
+- Don't forget to add your user to group **docker**
 - Then, edit your current user bash configuration with
 `sudo nano ~/.bashrc`
 - Add the lines :
