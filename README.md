@@ -40,3 +40,15 @@ disown
 
 ## Optional : configure Visual Studio Code to display containers
 To configure the Docker extension for Visual Studio Code so that it shows containers running inside WSL, go to Settings > Docker > Host, and change it for `unix:///var/run/docker.sock`
+
+## Optional : Get Lando to use Docker on WSL2 instead of Docker Desktop for Windows
+Courtesy of [https://creativelogic.biz/blog/lando-on-wsl2](https://creativelogic.biz/blog/lando-on-wsl2)
+
+- Create `~/.lando/config.yml` with the following lines :
+````
+setup:
+	buildEngine: false
+````
+- Install Lando for Linux
+- Restart WSL
+
